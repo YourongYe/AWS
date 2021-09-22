@@ -15,3 +15,8 @@
 - Principal: account/user/role to which this policy applied to
 - Action: list of actions this policy allows or denies
 - Resource: list of resources to which the actions applied to
+
+# Multi Factor Authentication - MFA
+- protect your Root Accounts and IAM users
+- MFA = password you know + security device you own
+- Main benefit of MFA: if a password is stolen or hacked, the account is not compromised
