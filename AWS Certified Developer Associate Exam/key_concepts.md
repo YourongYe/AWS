@@ -25,3 +25,6 @@
 -   2. Universal 2nd Factor (U2F) Security Key
 -   3. Hardware Key Fob MFA Device
 -   4. Hardware Key Fob MFA Device for AWS GovCloud (US)
+
+# IAM Roles
+we will assign permissions to AWS services with IAM Roles to access other AWS services
