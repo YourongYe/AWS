@@ -20,3 +20,8 @@
 - protect your Root Accounts and IAM users
 - MFA = password you know + security device you own
 - Main benefit of MFA: if a password is stolen or hacked, the account is not compromised
+- MFA devices options: 
+-   1. Virtual MFA device 
+-   2. Universal 2nd Factor (U2F) Security Key
+-   3. Hardware Key Fob MFA Device
+-   Hardware Key Fob MFA Device for AWS GovCloud (US)
