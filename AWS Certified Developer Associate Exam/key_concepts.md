@@ -27,4 +27,9 @@
 -   4. Hardware Key Fob MFA Device for AWS GovCloud (US)
 
 # IAM Roles
-we will assign permissions to AWS services with IAM Roles to access other AWS services
+Means assign permissions to AWS services with IAM Roles to access other AWS services
+
+# IAM Security Tools
+- IAM Credentials Report (account-level)
+- IAM Access Advisor (user-level)
+- 
