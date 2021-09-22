@@ -7,4 +7,4 @@
 # How can users access AWS ?
 - AWS Management Console (protected by password + MFA)
 - AWS Command Line Interface (CLI): protected by access keys
-- AWS Software Developer Kit (SDK) - for code: protected by access keys
+- AWS Software Developer Kit (SDK) - for code: protected by access keys (Eg. boto3)
