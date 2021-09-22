@@ -8,7 +8,7 @@
 - **Identity  and  Access  Management**,  Global  service
 - Root  account created  by  default,  shouldn’t  be  used  or  shared
 - Users or Groupscan be assigned JSON documents called policies. These policies define the permissionsof the users 
-- In AWS you apply the least privilege principle
+- In AWS you apply the **least privilege principle**
 
 # IAM Policies Structure
 - Effect: whether the statement allows or denies access (Allow, Deny)
