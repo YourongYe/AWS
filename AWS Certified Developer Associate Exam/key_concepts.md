@@ -24,4 +24,4 @@
 -   1. Virtual MFA device 
 -   2. Universal 2nd Factor (U2F) Security Key
 -   3. Hardware Key Fob MFA Device
--   Hardware Key Fob MFA Device for AWS GovCloud (US)
+-   4. Hardware Key Fob MFA Device for AWS GovCloud (US)
