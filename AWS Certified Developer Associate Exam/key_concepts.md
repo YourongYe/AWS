@@ -38,3 +38,11 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
  - Common EC2 resources include:
    - Renting virtual machines (EC2) = instances
    - Distributing load across machines (ELB) = load balancer
+- configuration: 
+- Operating System (OS)
+- compute power & cores (CPU)
+- random-access memory (RAM)
+- storage
+- Firewall rules: security group
+- Network card: speed of the card, Public IP address
+- Bootstrap script (configure at first launch): EC2 User Data
