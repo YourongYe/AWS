@@ -42,7 +42,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
   - Operating System (OS) => related to AMI options
   - compute power & cores (CPU)
   - random-access memory (RAM)
-  - instance storage
+  - instance storage (disk)
   - Firewall rules: security group
   - Network card: speed of the card, Public IP address
   - Bootstrap script (configure at first launch): EC2 User Data
