@@ -64,3 +64,9 @@ An AMI is a template that contains the software configuration (operating system,
 - When we launch our instance, we will need to select a key pair
 - It is used to log in to our instance
 - Key pair file can only be downloaded once, so don't lose the file
+
+# EC2 Instance Types
+- naming convention: m5.2xlarge
+  - m: instance class
+  - 5: generation (version) (AWS improves them over time)
+  - 2xlarge: size of the instance within the class
