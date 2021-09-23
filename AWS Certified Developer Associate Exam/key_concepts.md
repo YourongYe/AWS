@@ -70,6 +70,7 @@ An AMI is a template that contains the software configuration (operating system,
   - m: instance class
   - 5: generation (version) (AWS improves them over time)
   - 2xlarge: size of the instance within the class
+
 1. General Purpose
 - Great for a diversity of workloads such as web servers or code repositories
 - Balance between:
@@ -77,6 +78,7 @@ An AMI is a template that contains the software configuration (operating system,
   - Memory
   - Networking
 - For example, t2.micro is a free tier general purpose type of instance
+ 
 2. Compute Optimized
 - Great for compute-intensive tasks that require high performance processors
 - Use cases:
@@ -86,6 +88,7 @@ An AMI is a template that contains the software configuration (operating system,
   - High performance computing (HPC)
   - Scientific modeling & machine learning
   - Dedicated gaming servers
+
 3. Memory Optimized
 - Fast performance for workloads that process large data sets in memory
 - Use cases:
@@ -93,3 +96,12 @@ An AMI is a template that contains the software configuration (operating system,
   - Distributed web scale cache stores
   - In-memory databases optimized for BI (business intelligence)
   - Applications performing real-time processing of big unstructured data
+
+4. Storage Optimized
+- Great for storage-intensive tasks that require high, sequential read and write access to large data sets on local storage
+- Use cases:
+  - High frequency online transaction processing (OLTP) systems
+  - Relational & NoSQL databases
+  - Cache for in-memory databases (for example, Redis)
+  - Data warehousing applications
+  - Distributed file systems
