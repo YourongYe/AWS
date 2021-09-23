@@ -33,3 +33,8 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - IAM Credentials Report (account-level)
 - IAM Access Advisor (user-level)
 - 
+ # EC2
+ - EC2 represents Elastic Compute Cloud, also means Infrastructure as a Service
+ - Common EC2 resources include:
+   - Renting virtual machines (EC2) = instances
+   - Distributing load across machines (ELB) = load balancer
