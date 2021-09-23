@@ -77,3 +77,11 @@ An AMI is a template that contains the software configuration (operating system,
   - Memory
   - Networking
 - For example, t2.micro is a free tier general purpose type of instance
+2. Compute Optimized
+- Great for compute-intensive tasks that require high performance processors:
+  - Batch processing workloads
+  - Media transcoding
+  - High performance web servers
+  - High performance computing (HPC)
+  - Scientific modeling & machine learning
+  - Dedicated gaming servers
