@@ -39,7 +39,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
    - Renting virtual machines (EC2) = instances
    - Distributing load across machines (ELB) = load balancer
 - Configuration: 
-  - Operating System (OS) => chosen from AMI
+  - Operating System (OS) => related to AMI options
   - compute power & cores (CPU)
   - random-access memory (RAM)
   - instance storage
