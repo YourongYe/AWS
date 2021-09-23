@@ -63,3 +63,4 @@ An AMI is a template that contains the software configuration (operating system,
 # Key Pairs
 - When we launch our instance, we will need to select a key pair
 - It is used to log in to our instance
+- Key pair file can only be downloaded once, so don't lose the file
