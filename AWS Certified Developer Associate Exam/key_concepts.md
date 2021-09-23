@@ -59,3 +59,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 
 # AMI
 An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance
+
+# Key Pairs
+- When we launch our instance, we will need to select a key pair
+- It is used to log in to our instance
