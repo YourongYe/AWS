@@ -49,7 +49,13 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 
 # EC2 User Data
 - It is the script which will run only once at the instance first start
-- For example, you can write a bash script to launch a server on your instance
+- It is used to automate boot tasks such as:
+• Installing updates
+• Installing software
+• Downloading common files from the internet
+- Other things:
+  - For example, you can write a bash script to launch a server on your instance
+  - Bootstrapping means launching commands when a machine starts
 
 # AMI
 An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance
