@@ -70,3 +70,10 @@ An AMI is a template that contains the software configuration (operating system,
   - m: instance class
   - 5: generation (version) (AWS improves them over time)
   - 2xlarge: size of the instance within the class
+1. General Purpose
+- Great for a diversity of workloads such as web servers or code repositories
+- Balance between:
+  - Compute
+  - Memory
+  - Networking
+- For example, t2.micro is a free tier general purpose type of instance
