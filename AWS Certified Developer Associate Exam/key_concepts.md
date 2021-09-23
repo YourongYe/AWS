@@ -47,5 +47,9 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
   - Network card: speed of the card, Public IP address
   - Bootstrap script (configure at first launch): EC2 User Data
 
+# EC2 User Data
+- It is the script which will run only once at the instance first start
+- For example, you can write a bash script to launch a server on your instance
+
 # AMI
 An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance
