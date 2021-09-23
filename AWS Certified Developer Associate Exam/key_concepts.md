@@ -32,14 +32,14 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 # IAM Security Tools
 - IAM Credentials Report (account-level)
 - IAM Access Advisor (user-level)
-- 
+
  # EC2
  - EC2 represents Elastic Compute Cloud, also means Infrastructure as a Service
  - Common EC2 resources include:
    - Renting virtual machines (EC2) = instances
    - Distributing load across machines (ELB) = load balancer
-- configuration: 
-  - Operating System (OS)
+- Configuration: 
+  - Operating System (OS) => chosen from AMI
   - compute power & cores (CPU)
   - random-access memory (RAM)
   - instance storage
