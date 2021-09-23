@@ -10,5 +10,5 @@
 - AWS Software Developer Kit (SDK) - for code: protected by access keys (Eg. boto3)
 
 # What is the difference between EBS and SSD in AWS?
-- SSD are faster because there's no network latency, but it is ephemeral and you can't detach it from an instance and attach it to another. 
+- SSD are faster because there's no network latency, but you can't detach it from an instance and attach it to another. 
 - EBS are more flexible, since you can attach and detach it from instances, but is a little bit slower, as more suitable for general purpose.
