@@ -8,3 +8,6 @@
 - AWS Management Console (protected by password + MFA)
 - AWS Command Line Interface (CLI): protected by access keys
 - AWS Software Developer Kit (SDK) - for code: protected by access keys (Eg. boto3)
+
+# What is the difference between EBS and SSD in AWS?
+EBS are more flexible, since you can attach and detach it from instances, but is a little bit slower, as more suitable for general purpose.
