@@ -107,7 +107,22 @@ An AMI is a template that contains the software configuration (operating system,
   - Distributed file systems
  
 # Security Groups
+## Definition
 - Fundamental of network security in AWS and acting as a “firewall” on EC2 instances
 - Control how traffic is allowed into or out of our EC2 Instances
 - Security groups only contain "allow" rules
 - The rules can either by IP or by security group
+
+## Good to know
+- Accesssability
+  - Can be attached to multiple instances
+  - Locked down to a region / VPC combination
+- Common sense
+  - Does live “outside” the EC2 – if traffic is blocked the EC2 instance won’t see it
+  - It’s good to maintain one separate security group for SSH access
+- Error Msg related
+  - If your application is not accessible (time out), then it’s a security group issue
+  - If your application gives a “connection refused“ error, then it’s an application error or it’s not launched
+- Default setting
+  - All inbound traffic is blocked by default
+  - All outbound traffic is authorised by default
