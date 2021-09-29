@@ -25,4 +25,5 @@ They regulate:
 Because when you first download the file, the access permission of the file is 0644, which is too open, so it will treat it as a bad permission private key file.   
 ## How to do with it?
 We need to change the access permission of the file using the command:
-`chmod 0400 EC2Tutorial.pem`
+`chmod 0400 EC2Tutorial.pem` to change the acess permission of the key file.   
+And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem ec2-user@<public IP address of the EC2>`
