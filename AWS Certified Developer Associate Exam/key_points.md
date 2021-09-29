@@ -12,3 +12,10 @@
 # What is the difference between EBS and SSD in AWS?
 - SSD are faster because there's no network latency, but you can't detach it from an instance and attach it to another. 
 - EBS are more flexible, since you can attach and detach it from instances, but is a little bit slower, as more suitable for general purpose.
+
+# What does Security Group do?
+They regulate:
+• Access to Ports
+• Authorised IP ranges – IPv4 and IPv6
+• Control of inbound network (from other to the instance)
+• Control of outbound network (from the instance to other)
