@@ -15,7 +15,7 @@
 
 # What does Security Group do?
 They regulate:
-• Access to Ports
-• Authorised IP ranges – IPv4 and IPv6
-• Control of inbound network (from other to the instance)
-• Control of outbound network (from the instance to other)
+- Access to Ports
+- Authorised IP ranges – IPv4 and IPv6
+- Control of inbound network (from other to the instance)
+- Control of outbound network (from the instance to other)
