@@ -19,3 +19,4 @@ They regulate:
 - Authorised IP ranges – IPv4 and IPv6
 - Control of inbound network (from other to the instance)
 - Control of outbound network (from the instance to other)
+- Example: port 80 only allows IP address range: 0.222.222.0 - 0.333.333.0
