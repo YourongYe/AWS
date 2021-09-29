@@ -20,3 +20,9 @@ They regulate:
 - Control of inbound network (from other to the instance)
 - Control of outbound network (from the instance to other)
 - Example: port 80 only allows IP address range: 0.222.222.0 - 0.333.333.0
+
+# Why am I getting "UNPROTECTED PRIVATE KEY FILE" warning when SSH to EC2 on Mac/LInux?
+Because when you first download the file, the access permission of the file is 0644, which is too open, so it will treat it as a bad permission private key file.   
+## How to do with it?
+We need to change the access permission of the file using the command:
+`chmod 0400 EC2Tutorial.pem`
