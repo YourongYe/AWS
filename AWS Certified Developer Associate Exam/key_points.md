@@ -26,4 +26,4 @@ Because when you first download the file, the access permission of the file is 0
 ## How to do with it?
 We need to change the access permission of the file using the command:
 `chmod 0400 EC2Tutorial.pem` to change the acess permission of the key file.   
-And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem ec2-user@<public IP address of the EC2>`
+And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem <username>@<public IP address of the EC2>`
