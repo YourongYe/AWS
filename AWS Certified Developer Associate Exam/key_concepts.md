@@ -107,7 +107,7 @@ An AMI is a template that contains the software configuration (operating system,
   - Distributed file systems
  
 # Security Groups
-- fundamental of network security in AWS and acting as a “firewall” on EC2 instances
-- control how traffic is allowed into or out of our EC2 Instances
+- Fundamental of network security in AWS and acting as a “firewall” on EC2 instances
+- Control how traffic is allowed into or out of our EC2 Instances
 - Security groups only contain "allow" rules
 - The rules can either by IP or by security group
