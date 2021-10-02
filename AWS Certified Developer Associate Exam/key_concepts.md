@@ -28,8 +28,9 @@
 
 # CLI
 - Command Line Interface (where we can access AWS from the terminal)
-- username: access key
-- password: secret access key
+- Username: access key
+- Password: secret access key
+- Different from EC2 Instance Connect
 
 # IAM Roles
 Means assign permissions to AWS services with IAM Roles to access other AWS services
