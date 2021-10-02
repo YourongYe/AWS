@@ -174,7 +174,7 @@ An AMI is a template that contains the software configuration (operating system,
 
 ## Spot Instances
 - discount of up to **90%**
-- The MOST cost-efficient instances in AWS
+- The MOST **cost-efficient** instances in AWS, **spot price fluctuates**
 - you can “lose” at any point of time if your max price is less than the current spot price
 - Useful for workloads that are resilient to failure
   - Batch jobs
