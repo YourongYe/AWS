@@ -26,6 +26,11 @@
 -   3. Hardware Key Fob MFA Device
 -   4. Hardware Key Fob MFA Device for AWS GovCloud (US)
 
+# CLI
+- Command Line Interface (where we can access AWS from the terminal)
+- username: access key
+- password: secret access key
+
 # IAM Roles
 Means assign permissions to AWS services with IAM Roles to access other AWS services
 
