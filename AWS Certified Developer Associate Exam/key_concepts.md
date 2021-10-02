@@ -145,3 +145,8 @@ An AMI is a template that contains the software configuration (operating system,
 1. SSH(use terminal and use ssh commnad): Mac and Linux (key file needed)
 2. Putty: all Windows version (key file needed, file conversion needed)
 3. EC2 Instance Connect(from the AWS console): all applicable
+
+# EC2 Instance Connect
+- No need to use your key file that was downloaded
+- The “magic” is that a temporary key is uploaded onto EC2 by AWS
+- Need to make sure the port 22 is still opened!
