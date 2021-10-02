@@ -35,3 +35,5 @@ And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem <user
 4. Create a policy that has readonly permission to AWS IAM and then attche this policy to a new defined role
 5. Then in the instance page, attch this role to this EC2 instance
 6. Go back to EC2 Instance Connect, and try command: `aws iam list-users`, and now you can see the user details
+
+**Attention**: never use AWS credentials to log into AWS from your EC2 instance, cus others can access the instance and will be able to see it.
