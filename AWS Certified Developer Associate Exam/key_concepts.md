@@ -148,5 +148,18 @@ An AMI is a template that contains the software configuration (operating system,
 
 # EC2 Instance Connect
 - No need to use your key file that was downloaded
-- The “magic” is that a temporary key is uploaded onto EC2 by AWS
+- The “magic” is that a temporary key is automatically uploaded onto EC2 by AWS
 - Need to make sure the port 22 is still opened!
+
+# EC2 Instances Purchasing Options
+## EC2 On Demand
+- Has the highest cost but no upfront payment
+- short workload, predictable pricing
+- for **short-term** and **un-interrupted workloads**, where you can't predict how the application will behave
+
+## Reserved Instances
+- Up to 72% discount compared to On-demand
+- Reservation period: 1 year = + discount | 3 years = +++ discount (1 year **or** 3 year)
+- Purchasing options: no upfront | partial upfront = + | All upfront = ++ discount
+- For specific instance type only
+- Recommended for **steady-state** usage applications (think database)
