@@ -163,3 +163,22 @@ An AMI is a template that contains the software configuration (operating system,
 - Purchasing options: no upfront | partial upfront = + | All upfront = ++ discount
 - For specific instance type only
 - Recommended for **steady-state** usage applications (think database)
+
+### Convertible Reserved Instance
+- can change the EC2 instance type
+- Up to 45% discount
+
+### Scheduled Reserved Instances
+- example – every Thursday between 3 and 6 pm
+- Commitment for 1 year only
+
+## Spot Instances
+- discount of up to **90%**
+- The MOST cost-efficient instances in AWS
+- you can “lose” at any point of time if your max price is less than the current spot price
+- Useful for workloads that are resilient to failure
+  - Batch jobs
+  - Data analysis
+  - Image processing
+  - Any distributed workloads
+  - Workloads with a flexible start and end time
