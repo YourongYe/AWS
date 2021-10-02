@@ -7,7 +7,7 @@
 # IAM
 - **Identity  and  Access  Management**,  Global  service
 - Root  account created  by  default,  shouldn’t  be  used  or  shared
-- Users or Groups can be assigned JSON documents called policies. These policies define the permissionsof the users 
+- Users or Groups can be assigned JSON documents called policies. These policies define the permissions of the users 
 - In AWS you apply the **least privilege principle**
 
 # IAM Policies Structure
