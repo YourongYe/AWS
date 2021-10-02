@@ -27,3 +27,11 @@ Because when you first download the file, the access permission of the file is 0
 We need to change the access permission of the file using the command:
 `chmod 0400 EC2Tutorial.pem` to change the acess permission of the key file.   
 And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem <username>@<public IP address of the EC2>`
+
+# How can we access AWS from our EC2 Instance?
+1. Go to AWS console and choose the instance you want to log in
+2. Connect to the instance from the console (make sure the SSH security port 22 is open to all)
+3. Now we are in the EC2 Instance Connect (terminal)
+4. Create a policy that has readonly permission to AWS IAM and then attche this policy to a new defined role
+5. Then in the instance page, attch this role to this EC2 instance
+6. Go back to EC2 Instance Connect, and try command: `aws iam list-users`, and now you can see the user details
