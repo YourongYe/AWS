@@ -140,3 +140,8 @@ An AMI is a template that contains the software configuration (operating system,
 • 80 = HTTP – access unsecured websites   
 • 443 = HTTPS – access secured websites  
 • 3389 = RDP (Remote Desktop Protocol) – log into a Windows instance  
+
+# Log into EC2 Instance
+1. SSH(use terminal and use ssh commnad): Mac and Linux (key file needed)
+2. Putty: all Windows version (key file needed, file conversion needed)
+3. EC2 Instance Connect(from the AWS console): all applicable
