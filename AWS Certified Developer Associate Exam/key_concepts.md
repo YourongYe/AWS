@@ -180,5 +180,14 @@ An AMI is a template that contains the software configuration (operating system,
   - Batch jobs
   - Data analysis
   - Image processing
-  - Any distributed workloads
+  - Any **distributed** workloads
   - Workloads with a flexible start and end time
+- Not suitable for critical jobs or databases
+
+## Dedicated Hosts
+- Can address **compliance requirements**
+- Can use your **existing server-bound software licenses**.
+- More expensive
+- Useful for software that have complicated licensing model
+- for companies that have strong regulatory or compliance needs
+- **Physical** server with EC2 instance capacity fully dedicated to your use.
