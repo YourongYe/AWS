@@ -256,4 +256,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Risk of data loss if hardware fails
 - Backups and Replication are your responsibility
 
-# 
+# EFS – Elastic File System
+- Managed NFS (network file system) that can be mounted on many EC2
+- EFS can provide access for EC2 instances in multi-AZ
+- Highly available, scalable, expensive (3x gp2), pay per use
