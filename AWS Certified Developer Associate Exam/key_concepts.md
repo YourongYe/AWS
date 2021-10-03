@@ -233,6 +233,12 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Throughput Optimized HDD (st1): Max throughput 500 MiB/s – max IOPS 500
 - Cold HDD (sc1): Max throughput 250 MiB/s – max IOPS 250
 
+## EBS Multi-Attach – io1/io2 family
+- Attach the same EBS volume to multiple EC2 instances in the same AZ
+- Use case:
+  - Achieve higher application availability in clustered Linux applications (ex: Teradata)
+  - Applications must manage concurrent write operations
+
 # EBS Snapshots
 - Make a **backup** (snapshot) of your EBS volume
 - Not necessary to detach volume from EC2 instance to do snapshot, but recommended
