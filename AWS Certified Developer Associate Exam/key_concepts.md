@@ -214,4 +214,5 @@ An AMI is a template that contains the software configuration (operating system,
 # EBS Snapshots
 - Make a backup (snapshot) of your EBS volume
 - Not necessary to detach volume from EC2 instance to do snapshot, but recommended
+- Exists at Region level, not linked to a specific AZ
 - Can copy snapshots across AZ or Region
