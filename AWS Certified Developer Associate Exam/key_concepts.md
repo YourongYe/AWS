@@ -200,4 +200,9 @@ An AMI is a template that contains the software configuration (operating system,
 - It allows your instances to persist data, even after their termination
 - **They can only be mounted to one instance at a time** (at the CCP level)
 - They are bound to a specific availability zone
-- 
+- To move a volume across, you first need to snapshot it
+- Have a provisioned capacity (size in GBs, and IOPS)
+## Billing
+- You get billed for all the provisioned capacity
+- You can increase the capacity of the drive over time
+- (size in GBs, and IOPS) in/out
