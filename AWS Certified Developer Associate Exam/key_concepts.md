@@ -195,12 +195,12 @@ An AMI is a template that contains the software configuration (operating system,
 # EBS Volume
 ## Define
 - An EBS (Elastic Block Store) Volume is a network drive you can attach to your instances while they run
-- Think of them as a “network USB stick”
+- Think of them as a **“network USB stick”**
 ## Features
 - It allows your instances to persist data, even after their termination
 - **They can only be mounted to one instance at a time** (at the CCP level)
 - They are bound to a specific availability zone
-- To move a volume across, you first need to snapshot it
+- To move a volume across AZ or Region, you first need to snapshot it
 - Have a provisioned capacity (size in GBs, and IOPS)
 ## Billing
 - You get billed for all the provisioned capacity
@@ -212,7 +212,7 @@ An AMI is a template that contains the software configuration (operating system,
 - By default, any other attached EBS volume is not deleted (attribute disabled)
 
 # EBS Snapshots
-- Make a backup (snapshot) of your EBS volume
+- Make a **backup** (snapshot) of your EBS volume
 - Not necessary to detach volume from EC2 instance to do snapshot, but recommended
-- Exists at Region level, not linked to a specific AZ
-- Can copy snapshots across AZ or Region
+- Exists at **Region** level, not linked to a specific AZ
+- Can copy snapshots across **AZ or Region**
