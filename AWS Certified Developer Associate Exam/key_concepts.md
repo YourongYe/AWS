@@ -191,3 +191,13 @@ An AMI is a template that contains the software configuration (operating system,
 - Useful for software that have complicated licensing model
 - for companies that have strong regulatory or compliance needs
 - **Physical** server with EC2 instance capacity fully dedicated to your use.
+
+# EBS Volume
+## Define
+- An EBS (Elastic Block Store) Volume is a network drive you can attach to your instances while they run
+- Think of them as a “network USB stick”
+## Features
+- It allows your instances to persist data, even after their termination
+- **They can only be mounted to one instance at a time** (at the CCP level)
+- They are bound to a specific availability zone
+- 
