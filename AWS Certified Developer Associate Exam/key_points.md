@@ -40,4 +40,9 @@ And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem <user
 
 # How to copy volume across AZ or Regions?
 1. Create a snaptshot from an EBS volume
-2. Create a 
+## To another Region
+2. Copy that snapshot to another region
+3. Create a volume in an AZ from this copied snapshot
+
+## To another AZ
+2. Create a volume in antoher AZ from this snapshot
