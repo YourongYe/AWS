@@ -37,3 +37,7 @@ And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem <user
 6. Go back to EC2 Instance Connect, and try command: `aws iam list-users`, and now you can see the user details
 
 **Attention**: never use AWS credentials to log into AWS from your EC2 instance, cus others can access the instance and will be able to see it.
+
+# How to copy volume across AZ or Regions?
+1. Create a snaptshot from an EBS volume
+2. Create a 
