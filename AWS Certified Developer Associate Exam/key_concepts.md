@@ -265,3 +265,22 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Uses **NFSv4.1 protocol**
 - Use cases: content management, web serving, data sharing, Wordpress
 - **Only** Compatible with **Linux** based AMI (not Windows)
+
+# EBS vs EFS – Elastic File System
+## EBS Summary
+- EBS volumes…
+  - can be attached to **only one instance** at a time
+  - are locked at the Availability Zone (AZ) level
+  - gp2: IO increases if the disk size increases
+  - io1: can increase IO independently
+- To migrate an EBS volume across AZ
+  - Take a snapshot
+  - Restore the snapshot to another AZ
+  - EBS backups should be done while detached
+## EFS Summary
+- Can be mounting to many many of instances across AZ at a time
+- EFS share website files (WordPress)
+- Only for Linux Instances (POSIX)
+- EFS has a higher price point than EBS
+- Can leverage EFS-IA(Infrequent Access) for cost savings
+- **Remember: EFS vs EBS vs Instance Store**
