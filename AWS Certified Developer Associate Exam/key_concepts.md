@@ -69,7 +69,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
   • A Public AMI: AWS provided  
   • Your own AMI: you make and maintain them yourself  
   • An AWS Marketplace AMI: an AMI someone else made (and potentially sells)  
-
+- AMI are built for a specific region
 
 # Key Pairs (aka Private Key File)
 - When we launch our instance, we will need to select a key pair
