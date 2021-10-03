@@ -221,3 +221,14 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Not necessary to detach volume from EC2 instance to do snapshot, but recommended
 - Exists at **Region** level, not linked to a specific AZ
 - Can copy snapshots across **AZ or Region**
+
+# EC2 Instance Store (VS EBS)
+## Define
+- EBS volumes are network drives with good but “**limited**” performance
+- If you need a high-performance **hardware disk**, use EC2 Instance Store
+## Feature
+- Better I/O performance
+- EC2 Instance Store lose their storage if they’re stopped (ephemeral)
+- Good for buffer / cache / scratch data / **temporary content**
+- Risk of data loss if hardware fails
+- Backups and Replication are your responsibility
