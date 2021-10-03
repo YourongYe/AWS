@@ -63,8 +63,13 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
   - For example, you can write a bash script to launch a server on your instance
   - Bootstrapping means launching commands when a machine starts
 
-# AMI
-An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance
+# AMI (Amazon Machine Image)
+- An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance
+- You can launch EC2 instances from:  
+  • A Public AMI: AWS provided  
+  • Your own AMI: you make and maintain them yourself  
+  • An AWS Marketplace AMI: an AMI someone else made (and potentially sells)  
+
 
 # Key Pairs (aka Private Key File)
 - When we launch our instance, we will need to select a key pair
