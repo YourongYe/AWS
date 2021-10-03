@@ -50,6 +50,6 @@ And then ssh into the EC2 again using the command: `ssh -i EC2Tutorial.pem <user
 
 # How can we create our own AMI?
 1. Launch a new instance
-2. Configuring this instance with all the initial setup, 
-3. Create an AMI from this instance (all the setup on this instance (including user data script) will be backedup as a new AMI)
+2. Configuring this instance with all the initial setup
+3. Create an AMI from this instance (all the setup on this instance (including user data script) will be backedup as a new AMI), this will also create EBS snapshots
 4. Next time, when we want to launch instance with the same setup, just choose our own AMI during the configuration and then launch it
