@@ -216,6 +216,23 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - By default, the root EBS volume is deleted (attribute enabled)
 - By default, any other attached EBS volume is not deleted (attribute disabled)
 
+## EBS Volume Types
+- EBS Volumes are characterized in Size | Throughput | IOPS (I/O Ops Per Sec)
+- Only gp2/gp3 and io1/io2 can be used as boot volumes (root volume)
+### General Purpose SSD (gp2/gp3)
+- Cost effective storage, low-latency
+- System boot volumes, Virtual desktops, Development and test environments
+- 1 GiB - 16 TiB
+### Provisioned IOPS (PIOPS) SSD (io1/io2)
+- Critical business applications with sustained IOPS performance
+- Or applications that need more than **16,000 IOPS**
+- Great for databases workloads (sensitive to storage perf and consistency)
+- Supports EBS Multi-attach
+### Hard Disk Drives (HDD)
+- **Cannot** be a boot volume
+- Throughput Optimized HDD (st1): Max throughput 500 MiB/s – max IOPS 500
+- Cold HDD (sc1): Max throughput 250 MiB/s – max IOPS 250
+
 # EBS Snapshots
 - Make a **backup** (snapshot) of your EBS volume
 - Not necessary to detach volume from EC2 instance to do snapshot, but recommended
@@ -232,3 +249,5 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Good for buffer / cache / scratch data / **temporary content**
 - Risk of data loss if hardware fails
 - Backups and Replication are your responsibility
+
+# 
