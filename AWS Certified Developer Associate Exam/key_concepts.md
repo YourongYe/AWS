@@ -235,6 +235,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 
 ## EBS Multi-Attach – io1/io2 family
 - Attach the same EBS volume to multiple EC2 instances in the same AZ
+- Each EC2 instance has full read/write permissions.
 - Use case:
   - Achieve higher application availability in clustered Linux applications (ex: Teradata)
   - Applications must manage concurrent write operations
