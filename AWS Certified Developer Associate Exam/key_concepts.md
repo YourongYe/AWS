@@ -210,3 +210,8 @@ An AMI is a template that contains the software configuration (operating system,
 - Controls the EBS behaviour when an EC2 instance terminates
 - By default, the root EBS volume is deleted (attribute enabled)
 - By default, any other attached EBS volume is not deleted (attribute disabled)
+
+# EBS Snapshots
+- Make a backup (snapshot) of your EBS volume
+- Not necessary to detach volume from EC2 instance to do snapshot, but recommended
+- Can copy snapshots across AZ or Region
