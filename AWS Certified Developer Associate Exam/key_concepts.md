@@ -290,7 +290,18 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - a managed load balancer
 - Health Checks: They enable the load balancer to know if instances it forwards traffic to are available to reply to requests
 
-## Classic Load Balancers (v1)
+## Classic Load Balancers (v1 **deprecated**)
 - Supports TCP (Layer 4), HTTP & HTTPS (Layer 7)
 - Health checks are TCP or HTTP based
-- Fixed hostname XXX.region.elb.amazonaws.com
+- **Fixed hostname** XXX.region.elb.amazonaws.com
+## Application Load Balancer (v2)
+- Application load balancers is Layer 7 (HTTP)
+- Load balancing to multiple HTTP applications across machines (**target groups**)
+- Load balancing to multiple applications on the same machine (ex: containers)
+- **In comparison, we’d need multiple Classic Load Balancer per application**
+- ALB are a great fit for micro services & container-based application (example: Docker & Amazon ECS)
+### Routing
+- Routing based on path in URL (example.com/users & example.com/posts)
+- Routing based on hostname in URL (one.example.com & other.example.com)
+- Routing based on Query String, Headers (example.com/users?id=123&order=false)
+
