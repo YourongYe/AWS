@@ -296,12 +296,17 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - **Fixed hostname** XXX.region.elb.amazonaws.com
 ## Application Load Balancer (v2)
 - Application load balancers is Layer 7 (HTTP)
-- Load balancing to multiple HTTP applications across machines (**target groups**)
+- ALB can **route** to multiple **target groups**
 - Load balancing to multiple applications on the same machine (ex: containers)
 - **In comparison, we’d need multiple Classic Load Balancer per application**
 - ALB are a great fit for micro services & container-based application (example: Docker & Amazon ECS)
-### Routing
+- Health checks are at the target group level
+### Routing methods
 - Routing based on path in URL (example.com/users & example.com/posts)
 - Routing based on hostname in URL (one.example.com & other.example.com)
 - Routing based on Query String, Headers (example.com/users?id=123&order=false)
-
+### Good to know
+- Fixed hostname (XXX.region.elb.amazonaws.com)
+- The application servers don’t see the IP of the client directly
+- The true IP of the client is inserted in the header **X-Forwarded-For**
+- 
