@@ -294,6 +294,7 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Supports TCP (Layer 4), HTTP & HTTPS (Layer 7)
 - Health checks are TCP or HTTP based
 - **Fixed hostname** XXX.region.elb.amazonaws.com
+
 ## Application Load Balancer (v2)
 - Application load balancers is Layer 7 (HTTP)
 - ALB can **route** to multiple **target groups**
@@ -309,4 +310,12 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - Fixed hostname (XXX.region.elb.amazonaws.com)
 - The application servers don’t see the IP of the client directly
 - The true IP of the client is inserted in the header **X-Forwarded-For**
-- 
+
+## Network Load Balancer (v2)
+- Network load balancers (Layer 4) (low level)
+  - Forward TCP & UDP traffic to your instances
+  - Handle millions of request per seconds
+  - Less latency
+- NLB has one static IP per AZ, and supports assigning Elastic IP (helpful for whitelisting specific IP)
+- NLB are used for **extreme performance**, TCP or UDP traffic
+- Not in the AWS free tier
