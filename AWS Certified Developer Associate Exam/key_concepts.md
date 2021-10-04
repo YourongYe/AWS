@@ -285,3 +285,12 @@ Means assign permissions to AWS services with IAM Roles to access other AWS serv
 - EFS has a higher price point than EBS
 - Can leverage EFS-IA(Infrequent Access) for cost savings
 - **Remember: EFS vs EBS vs Instance Store**
+
+# Elastic Load Balancer?
+- a managed load balancer
+- Health Checks: They enable the load balancer to know if instances it forwards traffic to are available to reply to requests
+
+## Classic Load Balancers (v1)
+- Supports TCP (Layer 4), HTTP & HTTPS (Layer 7)
+- Health checks are TCP or HTTP based
+- Fixed hostname XXX.region.elb.amazonaws.com
